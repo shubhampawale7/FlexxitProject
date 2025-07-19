@@ -31,3 +31,10 @@ html {
 ::-webkit-scrollbar-thumb:hover {
   background-color: #F87171; /* A lighter red for hover */
 }
+
+
+.playwrite-fr-moderne-guides-regular {
+  font-family: "header", cursive;
+  font-weight: 400;
+  font-style: normal;
+}

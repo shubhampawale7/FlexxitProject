@@ -134,7 +134,9 @@ const Navbar = ({ onMediaClick }) => {
             <div className="flex items-center space-x-8">
               <Link
                 to={user ? "/browse" : "/"}
-                className="text-red-600 text-3xl font-black tracking-wider transition-all duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(239,68,68,0.8)]"
+                className="text-red-600 text-3xl font-bold tracking-wider 
+                font-logo
+                transition-all duration-300 hover:text-white hover:drop-shadow-[0_0_10px_rgba(239,68,68,0.8)]"
               >
                 FLEXXIT
               </Link>
