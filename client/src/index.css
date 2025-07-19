@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* === Custom Modern Scrollbar === */
+
+/* For Firefox */
+html {
+  scrollbar-width: thin;
+  scrollbar-color: #DC2626 #111827;
+}
+
+/* For Webkit-based browsers (Chrome, Safari, Edge) */
+::-webkit-scrollbar {
+  width: 10px; /* Made slightly wider for a better grab area */
+}
+
+::-webkit-scrollbar-track {
+  background: transparent; /* Make track invisible for a cleaner look */
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #DC2626; /* Flexxit Red */
+  border-radius: 20px; /* This creates the "pill" shape */
+  border: 2px solid #111827; /* A border to match the dark theme background */
+  transition: background-color 0.3s ease-in-out; /* Adds a smooth transition */
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #F87171; /* A lighter red for hover */
+}
