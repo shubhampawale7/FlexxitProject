@@ -13,7 +13,7 @@ const app = express();
 
 const whitelist = [
   "http://localhost:5173",
-  "https://flexxit-project.vercel.app/",
+  "https://flexxit-project.vercel.app",
 ];
 const corsOptions = {
   origin: function (origin, callback) {
